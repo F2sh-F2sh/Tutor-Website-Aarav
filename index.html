@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Singh Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mohini Palister</h1>
+    <p>English Tutor</p>
+
+    <h2>Leave a Review</h2>
+
+    <form id="review-form">
+        <input
+            id="reviewer-name"
+            type="text"
+            placeholder="Your name"
+            required
+            maxlength="80"
+        >
+
+        <textarea
+            id="comment"
+            placeholder="Write your review"
+            required
+            maxlength="1000"
+        ></textarea>
+
+        <button type="submit">Submit Review</button>
+    </form>
+
+    <h2>Reviews</h2>
+    <div id="reviews">
+        <p>Loading reviews...</p>
+    </div>
+    
+    <p id="review-message"></p>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
