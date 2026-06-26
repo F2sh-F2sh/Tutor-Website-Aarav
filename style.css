@@ -5,6 +5,9 @@ body {
     padding: 20px;
     background-color: #f7f4ec;
     color: #222;
+    background-image: url('unnamed.png');
+    background-position: center;
+    background-size: cover;
 }
 
 #reviews {
