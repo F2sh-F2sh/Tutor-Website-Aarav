@@ -49,6 +49,7 @@ body {
 #review-form textarea,
 #review-form button {
     width: 100%;
+    box-sizing: border-box;
     padding: 12px;
     font-family: Arial, sans-serif;
     font-size: 16px;
