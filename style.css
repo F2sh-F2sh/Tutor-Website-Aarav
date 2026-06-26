@@ -1,6 +1,68 @@
 body {
     font-family: Papyrus, sans-serif;
     max-width: 800px;
-    margin: auto;
+    margin: 0 auto;
     padding: 20px;
+    background-color: #f7f4ec;
+    color: #222;
+}
+
+#reviews {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px;
+    border: 2px solid #d6c7a1;
+    border-radius: 12px;
+    background-color: white;
+    text-align: left;
+}
+
+.review strong {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.review p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+#review-form {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+#review-form input,
+#review-form textarea,
+#review-form button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-family: Papyrus, sans-serif;
+    font-size: 16px;
+}
+
+#review-form textarea {
+    min-height: 120px;
+}
+
+#review-form button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b6f3d;
+    color: white;
 }
