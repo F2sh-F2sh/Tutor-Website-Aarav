@@ -68,7 +68,7 @@ body {
 }
 
 #review-message {
-    text-align: center;
+    text-align: left;
     color: #8b6f3d;
     font-weight: bold;
     margin-top: 10px;
