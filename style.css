@@ -90,3 +90,7 @@ body {
 .about-text {
     max-width: 400px;
 }
+
+.profile-img {
+    width: 180px;
+}
