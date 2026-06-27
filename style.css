@@ -74,3 +74,19 @@ body {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.about-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.profile-img {
+    width: 220px;
+    height: auto;
+}
+
+.about-text {
+    max-width: 400px;
+}
